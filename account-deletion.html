@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion Guide - Kidora | 帳戶刪除指南</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .content {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .back-link {
+            margin-bottom: 30px;
+        }
+        
+        .back-link a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+        
+        h2 {
+            color: #667eea;
+            font-size: 24px;
+            margin: 30px 0 15px 0;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+        }
+        
+        h3 {
+            color: #374151;
+            font-size: 18px;
+            margin: 20px 0 10px 0;
+        }
+        
+        .important {
+            background: #fef3c7;
+            border: 1px solid #f59e0b;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            font-weight: 600;
+        }
+        
+        .warning {
+            background: #fef2f2;
+            border: 1px solid #fca5a5;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .step {
+            background: #f0f9ff;
+            border: 1px solid #0ea5e9;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 15px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        
+        .step-number {
+            background: #0ea5e9;
+            color: white;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .step-content {
+            flex: 1;
+        }
+        
+        .step-content strong {
+            display: block;
+            margin-bottom: 5px;
+            color: #1e40af;
+        }
+        
+        .bilingual {
+            margin: 10px 0;
+        }
+        
+        .english {
+            color: #374151;
+            margin-bottom: 5px;
+        }
+        
+        .chinese {
+            color: #6b7280;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+        
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .contact-box {
+            background: #e0f2fe;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .contact-box strong {
+            color: #1e40af;
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .contact-box a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            color: #6b7280;
+        }
+        
+        .last-updated {
+            text-align: center;
+            color: #6b7280;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        
+        @media (max-width: 640px) {
+            .container {
+                padding: 20px 10px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🗑️ Account Deletion Guide</h1>
+        <p>帳戶刪除指南 - 詳細步驟說明</p>
+    </div>
+    
+    <div class="container">
+        <div class="content">
+            <div class="back-link">
+                <a href="index.html">← Back to Legal Documents</a>
+            </div>
+            
+            <div class="last-updated">Last Updated: October 2025 | 最後更新：2025年10月</div>
+            
+            <div class="important">
+                <div class="bilingual">
+                    <div class="english"><strong>Kidora Account Deletion Process</strong></div>
+                    <div class="chinese">Kidora 帳戶刪除流程</div>
+                </div>
+                <div class="bilingual">
+                    <div class="english">This guide explains how to delete your Kidora account and associated data, as required by Google Play Store policies.</div>
+                    <div class="chinese">本指南說明如何刪除您的 Kidora 帳戶和關聯資料，符合 Google Play Store 政策要求。</div>
+                </div>
+            </div>
+
+            <h2>📱 How to Delete Your Account | 如何刪除您的帳戶</h2>
+            
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <div class="bilingual">
+                        <div class="english"><strong>Open the Kidora App</strong></div>
+                        <div class="chinese"><strong>開啟 Kidora 應用程式</strong></div>
+                    </div>
+                    <div class="bilingual">
+                        <div class="english">Launch the Kidora application on your mobile device.</div>
+                        <div class="chinese">在您的手機裝置上啟動 Kidora 應用程式。</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <div class="bilingual">
+                        <div class="english"><strong>Navigate to Settings</strong></div>
+                        <div class="chinese"><strong>前往設定頁面</strong></div>
+                    </div>
+                    <div class="bilingual">
+                        <div class="english">Tap on the "Settings" tab at the bottom of the screen.</div>
+                        <div class="chinese">點擊螢幕底部的「設定」標籤。</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <div class="bilingual">
+                        <div class="english"><strong>Find Account Management</strong></div>
+                        <div class="chinese"><strong>找到帳戶管理</strong></div>
+                    </div>
+                    <div class="bilingual">
+                        <div class="english">Scroll down to find the "Account Management" section.</div>
+                        <div class="chinese">向下滾動找到「帳戶管理」區段。</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <div class="bilingual">
+                        <div class="english"><strong>Select Delete Account</strong></div>
+                        <div class="chinese"><strong>選擇刪除帳戶</strong></div>
+                    </div>
+                    <div class="bilingual">
+                        <div class="english">Tap on "Delete Account" option.</div>
+                        <div class="chinese">點擊「刪除帳戶」選項。</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">5</div>
+                <div class="step-content">
+                    <div class="bilingual">
+                        <div class="english"><strong>Confirm Deletion</strong></div>
+                        <div class="chinese"><strong>確認刪除</strong></div>
+                    </div>
+                    <div class="bilingual">
+                        <div class="english">Read the confirmation dialog carefully and tap "Confirm" to proceed with account deletion.</div>
+                        <div class="chinese">仔細閱讀確認對話框，然後點擊「確認」以進行帳戶刪除。</div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>📋 What Data Will Be Deleted | 將刪除哪些資料</h2>
+            
+            <h3>✅ Personal Data | 個人資料</h3>
+            <ul>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">Your user profile information (name, age)</div>
+                        <div class="chinese">您的用戶資料資訊（姓名、年齡）</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">Your account credentials</div>
+                        <div class="chinese">您的帳戶憑證</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">Your personal preferences and settings</div>
+                        <div class="chinese">您的個人偏好和設定</div>
+                    </div>
+                </li>
+            </ul>
+            
+            <h3>✅ Usage Data | 使用資料</h3>
+            <ul>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">All your question records</div>
+                        <div class="chinese">您的所有問題記錄</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">All your answer history</div>
+                        <div class="chinese">您的所有回答歷史</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">All your thought records</div>
+                        <div class="chinese">您的所有想法記錄</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">Your learning progress data</div>
+                        <div class="chinese">您的學習進度資料</div>
+                    </div>
+                </li>
+            </ul>
+            
+            <h3>✅ Device Information | 裝置資訊</h3>
+            <ul>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">Device-specific settings</div>
+                        <div class="chinese">裝置特定設定</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">Local storage data</div>
+                        <div class="chinese">本地儲存資料</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">App usage statistics</div>
+                        <div class="chinese">應用程式使用統計</div>
+                    </div>
+                </li>
+            </ul>
+
+            <h2>⚠️ Important Information | 重要資訊</h2>
+            
+            <div class="warning">
+                <div class="bilingual">
+                    <div class="english"><strong>Permanent Deletion</strong></div>
+                    <div class="chinese"><strong>永久刪除</strong></div>
+                </div>
+                <div class="bilingual">
+                    <div class="english">Once you delete your account, all data will be permanently removed and cannot be recovered. This action is irreversible.</div>
+                    <div class="chinese">一旦您刪除帳戶，所有資料將被永久移除且無法恢復。此操作不可逆轉。</div>
+                </div>
+            </div>
+            
+            <h3>🔄 Data Retention Policy | 資料保留政策</h3>
+            <ul>
+                <li>
+                    <div class="bilingual">
+                        <div class="english"><strong>Complete Deletion:</strong> All personal data will be completely deleted</div>
+                        <div class="chinese"><strong>完全刪除：</strong>所有個人資料將被完全刪除</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english"><strong>No Retention Period:</strong> No data will be retained after account deletion</div>
+                        <div class="chinese"><strong>無保留期限：</strong>帳戶刪除後不會保留任何資料</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english"><strong>Immediate Effect:</strong> Deletion takes effect immediately upon confirmation</div>
+                        <div class="chinese"><strong>立即生效：</strong>確認後刪除立即生效</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english"><strong>No Recovery:</strong> Deleted data cannot be recovered or restored</div>
+                        <div class="chinese"><strong>無法恢復：</strong>已刪除的資料無法恢復或還原</div>
+                    </div>
+                </li>
+            </ul>
+            
+            <h3>📊 Anonymous Usage Data | 匿名使用資料</h3>
+            <div class="bilingual">
+                <div class="english">We may retain anonymous, aggregated usage statistics that cannot be linked to your personal identity for the purpose of improving our services. This data does not contain any personally identifiable information.</div>
+                <div class="chinese">我們可能會保留無法與您個人身份連結的匿名、聚合使用統計資料，用於改善我們的服務。此資料不包含任何個人識別資訊。</div>
+            </div>
+
+            <h2>🔒 Third-Party Services | 第三方服務</h2>
+            
+            <h3>Google Account | Google 帳戶</h3>
+            <div class="bilingual">
+                <div class="english">If you signed in using Google, deleting your Kidora account will not affect your Google account. Your Google account and its data remain unchanged.</div>
+                <div class="chinese">如果您使用 Google 登入，刪除您的 Kidora 帳戶不會影響您的 Google 帳戶。您的 Google 帳戶及其資料保持不變。</div>
+            </div>
+            
+            <h3>OpenAI Services | OpenAI 服務</h3>
+            <div class="bilingual">
+                <div class="english">Question data sent to OpenAI for processing is handled according to OpenAI's data retention policies. We do not control OpenAI's data retention practices.</div>
+                <div class="chinese">發送給 OpenAI 進行處理的問題資料根據 OpenAI 的資料保留政策處理。我們不控制 OpenAI 的資料保留做法。</div>
+            </div>
+
+            <h2>👨‍👩‍👧‍👦 Parental Rights | 家長權利</h2>
+            <div class="bilingual">
+                <div class="english">If you are a parent and your child has created a Kidora account, you have the right to:</div>
+                <div class="chinese">如果您是家長且您的孩子已創建 Kidora 帳戶，您有權：</div>
+            </div>
+            <ul>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">Request account deletion on behalf of your child</div>
+                        <div class="chinese">代表您的孩子請求帳戶刪除</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">View all data associated with your child's account</div>
+                        <div class="chinese">查看與您孩子帳戶相關的所有資料</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english">Contact us directly for assistance with account deletion</div>
+                        <div class="chinese">直接聯絡我們以獲得帳戶刪除協助</div>
+                    </div>
+                </li>
+            </ul>
+
+            <h2>📞 Need Help? | 需要協助？</h2>
+            <div class="bilingual">
+                <div class="english">If you encounter any issues during the account deletion process or have questions, please contact us:</div>
+                <div class="chinese">如果您在帳戶刪除過程中遇到任何問題或有疑問，請聯絡我們：</div>
+            </div>
+            <div class="contact-box">
+                <div class="bilingual">
+                    <div class="english"><strong>Contact Support:</strong></div>
+                    <div class="chinese"><strong>聯絡支援：</strong></div>
+                </div>
+                <a href="mailto:lutech.co.ltd@gmail.com">lutech.co.ltd@gmail.com</a>
+                <div class="bilingual">
+                    <div class="english"><small>Please include "Account Deletion" in the subject line for faster assistance.</small></div>
+                    <div class="chinese"><small>請在主題行中包含「帳戶刪除」以獲得更快的協助。</small></div>
+                </div>
+            </div>
+
+            <h2>📝 Alternative Deletion Methods | 替代刪除方法</h2>
+            <div class="bilingual">
+                <div class="english">If you cannot access the app or prefer alternative methods:</div>
+                <div class="chinese">如果您無法存取應用程式或偏好替代方法：</div>
+            </div>
+            <ul>
+                <li>
+                    <div class="bilingual">
+                        <div class="english"><strong>Email Request:</strong> Send an email to lutech.co.ltd@gmail.com with your account details</div>
+                        <div class="chinese"><strong>電子郵件請求：</strong>發送電子郵件至 lutech.co.ltd@gmail.com 並附上您的帳戶詳細資訊</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english"><strong>Include Information:</strong> Provide your registered email address or user ID</div>
+                        <div class="chinese"><strong>包含資訊：</strong>提供您註冊的電子郵件地址或用戶 ID</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english"><strong>Verification:</strong> We may request additional verification to confirm your identity</div>
+                        <div class="chinese"><strong>驗證：</strong>我們可能會要求額外驗證以確認您的身份</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="bilingual">
+                        <div class="english"><strong>Processing Time:</strong> Email requests will be processed within 7 business days</div>
+                        <div class="chinese"><strong>處理時間：</strong>電子郵件請求將在 7 個工作天內處理</div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="footer">
+                <div class="bilingual">
+                    <div class="english"><p><strong>Kidora</strong> - Committed to protecting your privacy and data rights.</p></div>
+                    <div class="chinese"><p><strong>Kidora</strong> - 致力於保護您的隱私和資料權利。</p></div>
+                </div>
+                <div class="bilingual">
+                    <div class="english"><p>This guide complies with Google Play Store data safety requirements.</p></div>
+                    <div class="chinese"><p>本指南符合 Google Play Store 資料安全要求。</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
